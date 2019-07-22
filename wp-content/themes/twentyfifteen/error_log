@@ -1,0 +1,28 @@
+[19-Jul-2018 14:36:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/content-link.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/content-link.php on line 13
+[20-Jul-2018 09:20:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/content.php on line 13
+[20-Jul-2018 16:50:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/index.php on line 17
+[21-Jul-2018 00:10:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/author-bio.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[21-Jul-2018 01:36:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/archive.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/archive.php on line 19
+[21-Jul-2018 04:37:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/404.php on line 10
+[29-Jul-2018 02:33:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyfifteen/404.php on line 10

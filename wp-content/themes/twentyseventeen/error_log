@@ -1,0 +1,20 @@
+[19-Jul-2018 17:35:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php on line 13
+[19-Jul-2018 23:56:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php on line 13
+[20-Jul-2018 04:22:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Jul-2018 09:30:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Mar-2019 11:01:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chrimxyv/chainalysis.ninja/wp-content/themes/twentyseventeen/404.php on line 13

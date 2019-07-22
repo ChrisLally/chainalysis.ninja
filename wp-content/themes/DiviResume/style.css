@@ -1,0 +1,449 @@
+/*
+Theme Name: Divi Resume
+Theme URI: http://divi.tutsdirectory.com/
+Description: Child Theme for Divi Theme by Elegantthemes.
+Author: Tuts Directory
+Author URI: http://tutsdirectory.com/
+Template: Divi
+Version: 1.0.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+
+
+@import "http://fonts.googleapis.com/css?family=Playfair+Display:400,700";
+@import "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700";
+
+body {
+    background: rgb(239, 239, 239) !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+/*---------------------------------------
+     Typorgraphy              
+-----------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+h1 {
+    font-size: 114px;
+    font-weight: 300;
+}
+h2 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-top: 0;
+}
+h3 {
+    border-left: 4px solid #f0f0f0;
+    border-right: 4px solid #f0f0f0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    line-height: 32px;
+    padding: 0 22px 0 32px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+h5 {
+    letter-spacing: 0.5px;
+}
+p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+}
+.font-playfair {
+    font-family: "Playfair Display",sans-serif;
+    font-weight: 300;
+}
+
+/*---------------------------------------
+     General               
+-----------------------------------------*/
+#page-container {
+background-color:#FFFFFF;
+}
+
+
+
+a {
+    color: #4d638c;
+    text-decoration: none !important;
+    transition: all 0.5s ease 0s;
+}
+
+a:hover, a:active, a:focus {
+    color: #4d638c;
+    outline: medium none;
+}
+* {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+#getquote h2{font-family: "Playfair Display",sans-serif;font-weight: 300;letter-spacing: 0.5px;  font-style: normal;font-size: 14px !important;}
+#getquote h1{font-size: 42px; line-height: 52px;margin-top: 0;font-weight: bold;}
+.parallax-section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+.head-title {
+    padding-bottom: 62px;
+    position: relative;
+}
+#aboutus, #whatwedo, #getquote, #portfolio, #contactus {
+     background: #ffffff;
+	  box-shadow:0 40px 100px rgba(0,0,0,.2);
+	  padding-top: 100px;
+	  padding-bottom: 100px;
+	  position: relative;
+}
+#whatwedo, #contactus, footer {
+    text-align: center;
+}
+
+#et_top_search{ margin: 14px 0 0 22px; }
+/*---------------------------------------
+     Navigation section              
+-----------------------------------------*/
+
+#main-header {
+    border: none;
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+#main-header .logo_container {
+    color: #000;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 35px;
+}
+
+#main-header #top-menu li a {
+    font-size: 14px;
+    color: #777;
+    line-height: 40px;
+    padding-right: 22px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#main-header #top-menu li a:hover {
+    background: transparent;
+    color: #000;
+}
+
+#main-header #top-menu > li > a:hover,
+#main-header #top-menu > li > a:focus {
+  background-color: transparent;
+}
+
+#main-header #top-menu li.active > a {
+    background-color: transparent;
+    color: #000;
+}
+
+#main-header .mobile_menu_bar_toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+#main-header .mobile_menu_bar_toggle {
+    background-color: transparent;
+}
+
+#main-header .mobile_menu_bar_toggle .icon-bar {
+    background: #000;
+    border-color: transparent;
+}
+
+@media(min-width:768px) {
+    #main-header {
+        border-bottom: 0;
+        background: 0 0; 
+    }
+    #main-header.et-fixed-header{
+        background: #ffffff;
+        box-shadow:0 40px 100px rgba(0,0,0,.2) !important;
+        padding: 0px 0;
+    }
+
+}
+
+
+/*---------------------------------------
+     Buttons               
+-----------------------------------------*/
+
+#getquote .et_pb_promo_button{
+	background-color: #000000;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    margin-top: 22px;
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+	
+}
+#getquote .et_pb_button:hover::after,#getquote .et_pb_more_button:hover::after,#getquote .et_pb_promo_button:hover::after,#getquote .et_pb_newsletter_button:hover::after, .et_pb_pricing_table_button:hover::after{
+	 opacity: 0;
+}
+#getquote .et_pb_promo_button:focus,#getquote .et_pb_promo_button:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+
+
+
+/*---------------------------------------
+    Home section              
+-----------------------------------------*/
+/*.home #page-container{padding-top:0px !important;}*/
+#main-header{box-shadow: none;}
+#home {
+    -moz-box-align: center;
+    align-items: center;
+    background: #ffffff none repeat scroll 0 0;
+    display: block;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+#particles-js {
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.top50{
+	top:25%;
+}
+
+/*---------------------------------------
+     AboutUs section              
+-----------------------------------------*/
+
+#aboutus .aboutus-text {
+    padding: 0px !important;
+}
+#aboutus .aboutus-text h4 {
+    padding-top: 12px;
+}
+#aboutus .aboutus-text a {
+    color: #000000;
+    font-weight: bold;
+}
+#aboutus .aboutus-image img {
+    border-radius: 5px;
+    border-right: 6px solid #202020;
+    padding-right: 12px;
+}
+
+/*---------------------------------------
+    WhatWeDo section              
+-----------------------------------------*/
+
+#whatwedo p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#whatwedo .whatwedo-thumb {
+    padding: 42px 22px;
+}
+#whatwedo .whatwedo-thumb .fa {
+    font-size: 82px;
+    margin-bottom: 12px;
+}
+
+
+/*---------------------------------------
+   Portfolio section              
+-----------------------------------------*/
+
+#portfolio .portfolio-thumb {
+    border-radius: 5px;
+    margin-bottom: 26px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+#portfolio .portfolio-thumb:hover {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+#portfolio .portfolio-thumb img {
+    border-radius: 5px;
+}
+
+/*---------------------------------------
+     Contact section              
+-----------------------------------------*/
+
+#contactus .input {
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out 0s;
+}
+#contactus .input:focus {
+    border-color: #999999;
+}
+#contactus input {
+    height: 55px;
+}
+#contactus input[type="submit"] {
+    border: 3px solid #333333;
+    border-radius: 40px;
+    color: #333333;
+    font-family: "Playfair Display",sans-serif;
+    padding-bottom: 10px;
+}
+#contactus input[type="submit"]:hover {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+#contactus .et_pb_contact p input,#contactus .et_pb_contact p textarea{
+	 background-color: #ffffff;border: 2px solid #f0f0f0;
+}
+
+#contactus .et_pb_contact_submit{
+	background-color: #000000;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    margin-top: 22px;
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+	
+}
+
+#contactus .et_contact_bottom_container {
+    float: left;
+    margin-top: -1.5%;
+    overflow: hidden;
+    text-align: left;
+}
+
+#contactus .et_pb_button:hover::after,#contactus .et_pb_more_button:hover::after,#contactus .et_pb_promo_button:hover::after,#contactus .et_pb_newsletter_button:hover::after, .et_pb_pricing_table_button:hover::after{
+	 opacity: 0;
+}
+#contactus .et_pb_contact_submit:focus,#contactus .et_pb_contact_submit:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+/*---------------------------------------
+     Footer section              
+-----------------------------------------*/
+
+footer {
+    background: #151515 none repeat scroll 0 0;
+    color: #ffffff;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+footer #footer-info p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.et-social-icons {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.et-social-icons li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.et-social-icons li a {
+    color: #999999;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 22px 14px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out 0s;
+    vertical-align: middle;
+}
+.et-social-icons li a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+#footer-info{float:none;text-align:center;}
+.et-social-icons{float:none;text-align:center;}
+
+@media (max-width: 980px) {
+h1 {
+    font-size: 92px;
+}
+}
+@media (max-width: 768px) {
+h1 {
+    font-size: 78px;
+}
+}
+@media (max-width: 767px) {
+#aboutus .aboutus-image {
+    padding-top: 32px;
+}
+}
+@media (max-width: 650px) {
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+h3 {
+    font-size: 12px;
+    letter-spacing: 8px;
+    padding: 0 10px 0 18px;
+}
+}
+
